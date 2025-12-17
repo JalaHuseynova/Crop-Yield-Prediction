@@ -42,7 +42,7 @@ End-to-end pipeline from raw data to yield prediction and visualization.
 
 Crop Yield Data: Historical agricultural data is loaded from a local CSV file into an SQL database.
 
-Weather Data: Annual rainfall and temperature data are collected from an external API and stored in the same SQL database.
+Weather Data: Annual temperature data is collected from an external API and stored in the same SQL database.
 
 ### SQL → Python Processing
 
