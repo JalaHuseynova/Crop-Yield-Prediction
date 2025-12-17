@@ -1,12 +1,12 @@
-🌾 Crop yield prediction with weather data
+# 🌾 Crop yield prediction with weather data
 
-📌 Overview
+## 📌 Overview
 
 An end-to-end data analytics and machine learning project that analyzes historical crop yield data across multiple countries and predicts future agricultural productivity based on weather conditions obtained from an external API.
 
 The project explores how climate factors influence crop yield and presents insights through an interactive Streamlit dashboard.
 
-🎯 Key goals
+## 🎯 Key goals
 
 Analyze crop yield trends by country and year
 
@@ -16,7 +16,7 @@ Predict future crop yield using machine learning
 
 Build an interactive dashboard for insights and forecasting
 
-🧰 Tech stack
+## 🧰 Tech stack
 
 SQL – Data storage
 
@@ -32,12 +32,13 @@ Streamlit – Interactive dashboard
 
 GitHub – Version control & documentation
 
-🔄 Project workflow
+## 🔄 Project workflow
 
 End-to-end pipeline from raw data to yield prediction and visualization.
+
 ![Crop Yield Project Workflow](data_diagram.jpeg)
 
-📊 Output
+## 📊 Output
 
 Country-level yield trends
 
@@ -45,6 +46,8 @@ Weather impact analysis
 
 Future crop yield predictions under different climate scenarios
 
-Team Members
+## Team Members
+
 [Gülgün Salamzadə](https://github.com/GulgunSalamzada)
+
 [Ağacamal Aslanov]
