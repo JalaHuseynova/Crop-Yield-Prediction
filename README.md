@@ -38,6 +38,38 @@ End-to-end pipeline from raw data to yield prediction and visualization.
 
 ![Crop Yield Project Workflow](data_diagram.jpeg)
 
+### Data Collection & Storage
+
+Crop Yield Data: Historical agricultural data is loaded from a local CSV file into an SQL database.
+
+Weather Data: Annual rainfall and temperature data are collected from an external API and stored in the same SQL database.
+
+### SQL → Python Processing
+
+Data is retrieved from SQL into Python for analysis.
+
+Initial data preprocessing is performed:
+
+Data cleaning (Standardizing units and names)
+
+Type conversions (Ensuring years and yield values are numeric)
+
+Handling missing values
+
+Exploratory Data Analysis (EDA) is conducted to uncover production trends over the years.
+
+Visualizations are created using Matplotlib and Seaborn to illustrate the correlation between weather patterns and crop productivity.
+
+### Machine Learning
+A regression model is built to forecast crop yields based on historical performance and weather variables.
+
+The model helps explore how factors like drought or high temperatures impact food security.
+
+### Streamlit Dashboard
+All insights and predictions are presented in an interactive Streamlit dashboard.
+
+Users can filter by country or crop type to see historical trends and future yield forecasts.
+
 ## 📊 Output
 
 Country-level yield trends
