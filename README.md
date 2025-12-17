@@ -1,4 +1,4 @@
-# Crop-Yield-Prediction
+
 🌾 Crop yield prediction with weather data
 📌 Overview
 
@@ -33,7 +33,9 @@ Streamlit – Interactive dashboard
 GitHub – Version control & documentation
 
 🔄 Project workflow
+
 End-to-end pipeline from raw data to yield prediction and visualization.
+![Crop Yield Project Workflow](data_diagram.jpeg)
 
 📊 Output
 
