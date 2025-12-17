@@ -1,5 +1,5 @@
-
 🌾 Crop yield prediction with weather data
+
 📌 Overview
 
 An end-to-end data analytics and machine learning project that analyzes historical crop yield data across multiple countries and predicts future agricultural productivity based on weather conditions obtained from an external API.
@@ -46,3 +46,5 @@ Weather impact analysis
 Future crop yield predictions under different climate scenarios
 
 Team Members
+[Gülgün Salamzadə](https://github.com/GulgunSalamzada)
+[Ağacamal Aslanov]
