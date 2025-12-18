@@ -82,4 +82,4 @@ Future crop yield predictions under different climate scenarios
 
 [Gülgün Salamzadə](https://github.com/GulgunSalamzada)
 
-[Ağacamal Aslanov]
+[Ağacamal Aslanov](https://github.com/aghajamalaslanov-tech)
