@@ -1,0 +1,12 @@
+matplotlib
+pandas
+numpy
+seaborn
+scikit-learn
+openmeteo-requests
+requests-cache
+retry-requests
+python-dotenv
+sqlalchemy 
+pymysql
+cryptography
