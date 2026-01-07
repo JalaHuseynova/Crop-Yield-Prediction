@@ -3,7 +3,7 @@ An end-to-end data analytics and machine learning project that analyzes historic
 
 ### 🚀 Live Dashboard
 Explore the interactive yield prediction and climate impact dashboard here:
-#👉 Live App: Crop Yield Predictor & Insights
+ #👉 Live App: Crop Yield Predictor & Insights
 
 ### 📌 Project Overview
 This project aims to bridge the gap between climate science and agriculture. By combining historical yield data with temperature and precipitation patterns, we identify the key environmental drivers of food production.
