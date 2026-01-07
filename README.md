@@ -1,82 +1,55 @@
-# 🌾 Crop yield prediction with weather data
+### 🌾 Crop Yield Prediction with Weather Data
+An end-to-end data analytics and machine learning project that analyzes historical crop yield data across multiple countries and predicts agricultural productivity by integrating real-time weather information via external APIs.
 
-## 📌 Overview
+### 🚀 Live Dashboard
+Explore the interactive yield prediction and climate impact dashboard here:
 
-An end-to-end data analytics and machine learning project that analyzes historical crop yield data across multiple countries and predicts future agricultural productivity based on weather conditions obtained from an external API.
 
-The project explores how climate factors influence crop yield and presents insights through an interactive Streamlit dashboard.
+### 👉 Live App: Crop Yield Predictor & Insights
 
-## 🎯 Key goals
+### 📌 Project Overview
+This project aims to bridge the gap between climate science and agriculture. By combining historical yield data with temperature and precipitation patterns, we identify the key environmental drivers of food production.
 
-Analyze crop yield trends by country and year
+The project includes a robust data pipeline from SQL storage to Machine Learning forecasting, all presented through an interactive Streamlit interface for data-driven decision-making in agriculture.
 
-Study the impact of weather variables on agricultural productivity
+🔄 Project Workflow Diagram
+Below is the architectural flow of the project, illustrating the transition from raw data collection to predictive insights.
 
-Predict future crop yield using machine learning
+🛠 Project Workflow
+1. Data Collection & Storage
+Historical Yield Data: Multi-country agricultural records are ingested from local CSV sources.
 
-Build an interactive dashboard for insights and forecasting
+Weather API Integration: Annual climate data (temperature/rainfall) is fetched via external APIs.
 
-## 🧰 Tech stack
+Dockerized SQL Database: All datasets are cleaned and stored in a structured SQL environment to ensure data integrity and reproducibility.
 
-SQL – Data storage
+2. Exploratory Data Analysis (EDA)
+Using Matplotlib and Seaborn, we answer critical business and environmental questions:
 
-Python – Data processing & modeling
+Trend Analysis: Which countries have seen the most significant growth in productivity?
 
-Pandas, NumPy – Data manipulation
+Climate Correlation: How do extreme temperature fluctuations impact specific crop types?
 
-Matplotlib, Seaborn – Visualization
+Anomaly Detection: Identifying years of drought or unexpected yield drops.
 
-Machine learning- Model Training
+3. Machine Learning & Forecasting
 
-Streamlit – Interactive dashboard
 
-GitHub – Version control & documentation
+4. Streamlit Dashboard
+The final output is a user-centric application that allows:
 
-## 🔄 Project workflow
+Dynamic Filtering: Filter by country, crop type, or year range.
 
-End-to-end pipeline from raw data to yield prediction and visualization.
+Predictive Sandbox: Input hypothetical weather data to see predicted yield outcomes.
 
-![Crop Yield Project Workflow](data_diagram.jpeg)
+Visual Reports: High-quality charts showing the intersection of climate and farming.
 
-### Data Collection & Storage
-
-Crop Yield Data: Historical agricultural data is loaded from a local CSV file into an SQL database.
-
-Weather Data: Annual temperature data is collected from an external API and stored in the same SQL database.
-
-### SQL → Python Processing
-
-Data is retrieved from SQL into Python for analysis.
-
-Initial data preprocessing is performed:
-
-Data cleaning (Standardizing units and names)
-
-Type conversions (Ensuring years and yield values are numeric)
-
-Handling missing values
-
-Exploratory Data Analysis (EDA) is conducted to uncover production trends over the years.
-
-Visualizations are created using Matplotlib and Seaborn to illustrate the correlation between weather patterns and crop productivity.
-
-### Machine Learning
-A regression model is built to forecast crop yields based on historical performance and weather variables.
-
-The model helps explore how factors like drought or high temperatures impact food security.
-
-### Streamlit Dashboard
-All insights and predictions are presented in an interactive Streamlit dashboard.
-
-Users can filter by country or crop type to see historical trends and future yield forecasts.
-
-## 📊 Output
-
-Country-level yield trends
-
-Weather impact analysis
-
-Future crop yield predictions under different climate scenarios
+📊 Key Metrics & Insights (Example)
+Metric,Value / Detail
+Data Coverage,Global (Multiple Countries)
+Primary Features,"Temp, Rainfall, Snow, Location"
+Core Model,Machine Learning Regression
+Technology Stack,"SQL, Python, Streamlit, Docker"
 
 ## Team Members
 
