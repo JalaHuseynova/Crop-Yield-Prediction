@@ -44,7 +44,6 @@ graph TD
     D --> E[ML Model Building]
     E --> F[Streamlit App]
     F --> G[GitHub]
-
     style C fill:#2da44e,stroke:#fff,color:#fff
     style F fill:#ff4b4b,stroke:#fff,color:#fff
 
