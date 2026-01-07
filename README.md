@@ -37,7 +37,6 @@ GitHub – Version control & documentation
 End-to-end pipeline from raw data to yield prediction and visualization.
 ## Proyektin İşləmə Ardıcıllığı (Workflow)
 
-'''mermaid
 graph TD
     A[(CSV Data)] --> C[SQL Server]
     B[Weather API] --> C
