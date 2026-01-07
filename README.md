@@ -16,7 +16,7 @@ Below is the architectural flow of the project, illustrating the transition from
 
 ## 🛠 Project Workflow
 
-# 1. Data Collection & Storage
+### 1. Data Collection & Storage
 Historical Yield Data: Multi-country agricultural records are ingested from local CSV sources.
 
 Weather API Integration: Annual climate data (temperature/rainfall) is fetched via external APIs.
