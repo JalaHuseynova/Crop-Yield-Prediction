@@ -35,6 +35,26 @@ GitHub – Version control & documentation
 ## 🔄 Project workflow
 
 End-to-end pipeline from raw data to yield prediction and visualization.
+## Proyektin İşləmə Ardıcıllığı (Workflow)
+
+```mermaid
+graph TD
+    %% Məlumat Mənbələri
+    A[(CSV Files)] --> C[SQL Server]
+    B[Weather API] --> C
+
+    %% Saxlama və Analiz
+    C --> D[EDA: Pandas, Seaborn, Matplotlib]
+    
+    %% Model və Nəticə
+    D --> E[Machine Learning Model]
+    E --> F[Streamlit Dashboard]
+    F --> G{GitHub Repository}
+
+    %% Rəngləndirmə (Daha professional görünüş üçün)
+    style C fill:#0078D4,stroke:#fff,color:#fff
+    style F fill:#FF4B4B,stroke:#fff,color:#fff
+    style G fill:#238636,stroke:#fff,color:#fff
 
 ![Crop Yield Project Workflow](data_diagram.jpeg)
 
