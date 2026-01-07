@@ -15,6 +15,7 @@ Below is the architectural flow of the project, illustrating the transition from
 ![Project Workflow](https://github.com/JalaHuseynova/Crop-Yield-Prediction/blob/main/Project%20Diagram.drawio.svg)
 
 ## 🛠 Project Workflow
+
 # 1. Data Collection & Storage
 Historical Yield Data: Multi-country agricultural records are ingested from local CSV sources.
 
