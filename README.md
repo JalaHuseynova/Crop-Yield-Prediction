@@ -12,18 +12,18 @@ This project aims to bridge the gap between climate science and agriculture. By 
 
 The project includes a robust data pipeline from SQL storage to Machine Learning forecasting, all presented through an interactive Streamlit interface for data-driven decision-making in agriculture.
 
-🔄 Project Workflow Diagram
+## 🔄 Project Workflow Diagram
 Below is the architectural flow of the project, illustrating the transition from raw data collection to predictive insights.
 
-🛠 Project Workflow
-1. Data Collection & Storage
+## 🛠 Project Workflow
+# 1. Data Collection & Storage
 Historical Yield Data: Multi-country agricultural records are ingested from local CSV sources.
 
 Weather API Integration: Annual climate data (temperature/rainfall) is fetched via external APIs.
 
 Dockerized SQL Database: All datasets are cleaned and stored in a structured SQL environment to ensure data integrity and reproducibility.
 
-2. Exploratory Data Analysis (EDA)
+# 2. Exploratory Data Analysis (EDA)
 Using Matplotlib and Seaborn, we answer critical business and environmental questions:
 
 Trend Analysis: Which countries have seen the most significant growth in productivity?
@@ -32,10 +32,10 @@ Climate Correlation: How do extreme temperature fluctuations impact specific cro
 
 Anomaly Detection: Identifying years of drought or unexpected yield drops.
 
-3. Machine Learning & Forecasting
+# 3. Machine Learning & Forecasting
 
 
-4. Streamlit Dashboard
+# 4. Streamlit Dashboard
 The final output is a user-centric application that allows:
 
 Dynamic Filtering: Filter by country, crop type, or year range.
@@ -45,11 +45,13 @@ Predictive Sandbox: Input hypothetical weather data to see predicted yield outco
 Visual Reports: High-quality charts showing the intersection of climate and farming.
 
 📊 Key Metrics & Insights (Example)
+
 Metric,Value / Detail
-Data Coverage,Global (Multiple Countries)
-Primary Features,"Temp, Rainfall, Snow, Location"
-Core Model,Machine Learning Regression
-Technology Stack,"SQL, Python, Streamlit, Docker"
+
+Data Coverage, Global (Multiple Countries)
+Primary Features, "Temp, Rainfall, Snow, Location"
+Core Model, Machine Learning Regression
+Technology Stack, "SQL, Python, Streamlit, Docker"
 
 ## Team Members
 
