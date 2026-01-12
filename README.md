@@ -13,7 +13,7 @@ The project includes a robust data pipeline from SQL storage to Machine Learning
 ## 🔄 Project Workflow Diagram
 Below is the architectural flow of the project, illustrating the transition from raw data collection to predictive insights.
 
-![Project Workflow](https://github.com/JalaHuseynova/Crop-Yield-Prediction/blob/main/Diagram.drawio.svg)
+![Project Workflow](https://github.com/JalaHuseynova/Crop-Yield-Prediction/blob/main/data.diagram.svg)
 
 ## 🛠 Project Workflow
 
@@ -34,7 +34,7 @@ Climate Correlation: How do extreme temperature fluctuations impact specific cro
 Anomaly Detection: Identifying years of drought or unexpected yield drops.
 
 ### 3. Machine Learning & Forecasting
-
+This project utilizes the Random Forest Regressor algorithm to predict crop yields. The model was trained by analyzing historical yield data in conjunction with environmental factors such as average temperature, total precipitation, and pesticide usage.
 
 ### 4. Streamlit Dashboard
 The final output is a user-centric application that allows:
@@ -48,6 +48,7 @@ Visual Reports: High-quality charts showing the intersection of climate and farm
 
 
 ## Team Members
+[Jalə Hüseynova](https://github.com/JalaHuseynova)
 
 [Gülgün Salamzadə](https://github.com/GulgunSalamzada)
 
