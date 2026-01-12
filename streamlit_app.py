@@ -96,7 +96,7 @@ elif page == "Data Exploration":
         st.error(f"CSV file '{csv_name}' missing!")
 
 elif page == "Yield Prediction":
-    st.title("🤖 Prediction Sandbox")
+    st.title("Prediction Sandbox")
     if df is None:
         st.error("Dataset missing.")
     elif model is None:
@@ -126,5 +126,4 @@ elif page == "Yield Prediction":
                 if item_col in input_df.columns: input_df[item_col] = 1
                 
                 res = model.predict(input_df)[0]
-                st.balloons()
                 st.success(f"### Predicted Yield: {res:,.2f} hg/ha")
