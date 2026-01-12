@@ -162,4 +162,3 @@ Original file is located at
 #                 st.balloons()
 #                 st.success(f"### Predicted Yield: {res:,.2f} hg/ha")
 
-!streamlit run app.py & npx localtunnel --port 8501
