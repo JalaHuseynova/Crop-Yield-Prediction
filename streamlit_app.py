@@ -8,7 +8,6 @@ Original file is located at
 """
 
 
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import streamlit as st
