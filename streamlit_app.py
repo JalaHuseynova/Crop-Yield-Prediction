@@ -60,6 +60,12 @@ if df is not None:
             (df['Year'] >= year_range[0]) &
             (df['Year'] <= year_range[1])
         ]
+        # --- KOMANDA ÜZVLƏRİ (Sənin orijinal koduna əlavə) ---
+        st.sidebar.divider()
+        st.sidebar.header("👥 Team Members")
+        st.sidebar.markdown("[🔗 Jala Huseynova](www.linkedin.com/in/jala-huseynova-3117ba270)")
+        st.sidebar.markdown("[🔗 Ağacamal Aslanov](https://www.linkedin.com/in/aghajamal-aslanov/)")
+        st.sidebar.markdown("[🔗 Gülgün Salamzadə](https://www.linkedin.com/in/gulgun-salamzada-3a55821ba/)")
 
 # --- 4. SƏHİFƏLƏR ---
 if page == "Project Overview":
